@@ -1,3 +1,5 @@
 *.sqlite3
 *venv/
 *__pychace__/
+*urls.cpython-311.pyc
+*views.cpython-311.pyc
