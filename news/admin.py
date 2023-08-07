@@ -3,7 +3,7 @@ from news import models
 
 # Register your models here.
 class PostAdmin(admin.ModelAdmin):
-    list_display=['title','user','status','created']
+    list_display=['title','user','category','status','created']
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display=['name','status']
